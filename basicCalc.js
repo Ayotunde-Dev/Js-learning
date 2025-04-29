@@ -1,10 +1,10 @@
 // Function to calculate arithmetic operations with 2 numbers
 function simpleCalculator(num1, num2, operator) {
     if (typeof num1 !== 'number') {
-      return false
+      return false;
     }
     if (typeof num2 !== 'number') {
-      return false
+      return false;
     }
     if (operator == '+') {
       return num1 + num2;
