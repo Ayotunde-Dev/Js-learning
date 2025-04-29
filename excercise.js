@@ -22,7 +22,7 @@ const students = [
 let totalGrades = 0;
 for (let student of students) {
   totalGrades += student.grade;
-}
+} n 
 let averageGrade = totalGrades / 3;
 console.log(averageGrade);
 
